@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+/* body */
+body {
+    background-color:#12263a;
+    }
+/* --------------------------- */
+
+
+/* fonts */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full-height{
+    height:100vh;
+}
+/* fonts */
+
+
+
+/* nav bar */
+
+.nav-link {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.nav-link:hover {
+    color: #93827f;
+}
+
+.nav-link.active {
+    color:#93827f;
+}
+
+.container{
+    background-color:transparent;
+    width: 100%;
+   
+}
+
+
+/* trips styles */
+.trip-header{
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 5%;
+}
+/* card */
+.card-sm{
+    border-radius:  150px 150px 12px 12px;
+    background:#93827f; 
+    text-align: center;
+    height: 530px;
+    border: none;
+}
+
+.card-img-top{
+    height: 50%;
+    margin:auto;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius:  150px 150px 12px 12px;
+}
+
+.card-img-top.small{
+    height: 100px;
+   
+}
+
+.card-text{
+    color:white;
+}
+
+
+
+
+
+.btn{
+    background-color:#18382B;
+    color: white;
+
+    
+}
+
+.btn :hover{
+    background-color:#18382B;
+    color: white;
+}
+
+.btn-group{
+    width: 25%;
+}

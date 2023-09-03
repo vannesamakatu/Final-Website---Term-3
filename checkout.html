@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paradise Pearl</title>
+
+    <!--Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="styles/checkout.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top">
+        <div class="container">
+          
+          <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="assets/white logo.png" alt="Logo" height="100">
+          </a>
+  
+          <!-- nav items -->
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trips.html">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="checkout.html">Tickets</a>
+            </li>
+          </ul>
+  
+        </div>
+
+    </nav>
+
+   
+   <!-- Header -->
+   <div class="container mt-5 pt-5">
+    <h2 class="trip-header">Your Purchases</h2>
+</div>
+
+    <!-- checkout table -->
+<table id="trips-table" class="table" >
+    <thead>
+        <tr>
+            <th scope="col">Destination</th>
+            <th scope="col"></th>
+            <th scope="col">Trip Code</th>
+            <th scope="col">Trip Name</th>
+            <th scope="col">Trip Cost</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        <tr>
+            <th scope="row">Cebu</th>
+            <td><img src="assets/cebu.jpg" alt="Image 1" class="table-img"></td>
+            <th scope="row">CFifteen</th>
+            <td>Cebu</td>
+            <th scope="row">R100 000</th>
+            <td><button class="removeButton">Click to Remove</button></td>
+        </tr>
+        <tr>
+            <th scope="row">Venice</th>
+            <td><img src="assets/venice.jpg" alt="Image 2" class="table-img"></td>
+            <th scope="row">VFive</th>
+            <td>Venice</td>
+            <th scope="row">R30 000</th>
+            <td><button class="removeButton">Click to Remove</button></td>
+           
+        </tr>
+        <tr>
+            <th scope="row">Phuket</th>
+            <td><img src="assets/cebu.jpg" alt="Image 1" class="table-img"></td>
+            <th scope="row">PTen</th>
+            <td>Phuket</td>
+            <th scope="row">R60 000</th>
+            <td><button class="removeButton">Click to Remove</button></td>
+        </tr>
+    </tbody>
+</table>
+
+ <!-- Total Price and Purchase Button -->
+ <div class="container-sm">
+    <p>Total Price: <span id="totalPrice">R0</span></p>
+    <!-- Button trigger modal -->
+<button type="button" class="purchaseButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Purchase
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Thank You! For Booking With Us!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/white logo.png">
+          <p>Thank you for booking with us!</p>
+          <p>Your booking details will be sent immediately via email.</p>
+          <p>We look forward to seeing you!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button-sm" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="button-sm"  href="trips.html" >Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+</div>
+
+
+
+
+    
+
+
+
+
+
+<!-- Bootstrap Footer -->
+<footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+        <p>&copy; 2023 Paradise Pearl. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

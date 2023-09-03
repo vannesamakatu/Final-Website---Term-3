@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+/* body */
+body {
+    background-color:#12263a;
+    }
+/* --------------------------- */
+
+
+/* fonts */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full-height{
+    height:100vh;
+}
+/* fonts */
+
+
+
+/* nav bar */
+
+.nav-link {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.nav-link:hover {
+    color: #93827f;
+}
+
+.nav-link.active {
+    color:#93827f;
+}
+
+.container{
+    background-color:transparent;
+    width: 100%;
+   
+}
+
+
+/* components */
+button{
+    border: none;
+    padding:16px;
+    border-radius: 8px;
+    background:#93827f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+button :hover{
+    background-color: #33673B;
+    color: white;
+}
+
+.sortButton{
+    background-color: #33673B;
+    color:white ;
+}
+
+.trip-header{
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 5%;
+}
+
+
+
+/* table */
+.trips-table{
+    margin-top: 160px;
+    background-color: #12263a;
+    color: white;
+    
+}
+
+.table-group-divider{
+    background-color: #12263a;
+    color: white;
+}
+
+.table-img{
+    height: 100px;
+    border-radius:150px 150px 12px 12px;
+}
+
+.container-sm{
+    background-color:#12263a;
+    color: white;
+}
+
+.modal-body{
+    background-color: #12263a;
+    color: white;
+}
+
+.modal-content{
+    background-color: #93827f;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+/* body */
+body {
+    background-color:#12263a;
+    }
+/* --------------------------- */
+
+
+/* fonts */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full-height{
+    height:100vh;
+}
+/* fonts */
+
+
+
+/* nav bar */
+
+.nav-link {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.nav-link:hover {
+    color: #93827f;
+}
+
+.nav-link.active {
+    color:#93827f;
+}
+
+.container{
+    background-color:transparent;
+    width: 100%;
+   
+}
+
+
+/* components */
+button{
+    border: none;
+    padding:16px;
+    border-radius: 8px;
+    background:#93827f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+button :hover{
+    background-color: #33673B;
+    color: white;
+}
+
+
+/* carousel */
+.col-12{
+    width: 100%;
+    max-height: fit-content;
+  
+
+}
+.carousel-container {
+    width: 80%;
+    max-height: fit-content;
+   
+  }
+
+
+.carousel-inner{
+    width: 100%;
+    height: 570px;
+}
+
+.carousel-item img{
+    
+    height:100%;
+    width:fit-content;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    
+    bottom:24px;
+    width:50px;
+    height: 50px;
+    background-color: #93827f;
+    border-radius: 50%;
+    z-index: 1; 
+}
+
+.carousel-caption {
+
+    text-align: center;
+}
+
+
+/* accordion */
+
+.container-about{
+    text-align: center;
+    color: white;
+}
+.accordion-item{
+    width: 100%;
+   
+    position: relative;
+    border: none;
+    padding:16px;
+   
+    background: #F8F2DC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: black;
+    float: center;
+}
+
+.accordion-header{
+    background: #12263a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+.accordion-button{
+   
+    border-radius: 3%;
+    border-color: #12263a;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color:#93827f;
+
+}
+
