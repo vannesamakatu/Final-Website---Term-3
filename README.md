@@ -51,3 +51,23 @@ SOFTWARE.
 
 DEMO VIDEO LINK:
 https://drive.google.com/drive/folders/1mhxZuTpxnxdDlwsWVIArtyWv99eeQYG-
+
+ACKNOWLEDGMENTS
+Links to images used:
+Trips Page Images
+https://unsplash.com/photos/Of_u2aPwugw
+https://unsplash.com/photos/5CWfc-KE8SU
+https://unsplash.com/photos/7s7Fp1tbwoU
+https://unsplash.com/photos/7Zb7kUyQg1E
+https://unsplash.com/photos/7Zb7kUyQg1E
+https://unsplash.com/photos/R8VCNo9rqmQ
+
+Homepage slider 1:
+https://unsplash.com/photos/EmHeYdjEMKw
+
+Homepage slider 2:
+https://unsplash.com/photos/XyAzdDfZ87E
+
+Homepage slider 3:
+https://unsplash.com/photos/RN6ts8IZ4_0
+
